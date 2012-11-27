@@ -42,7 +42,12 @@ script is executable::
 
     chmod +x ~/mtv/mtv.py
 
-Test it by changing into the directory of the code
+Check to make sure you have `Python`_ installed
+(you probably do) and it's at least version 2.6::
+
+    python -V
+
+Test the script by changing into the directory of the code
 and passing the help flag to see the usage::
 
     cd ~/mtv
@@ -65,3 +70,4 @@ audio file.
 .. _ffmpeg: http://ffmpeg.org/
 .. _homebrew: http://mxcl.github.com/homebrew/
 .. _git: http://git-scm.com/
+.. _Python: http://www.python.org/
