@@ -40,7 +40,7 @@ download the `zip <https://github.com/kumar303/mtv/archive/master.zip>`_
 file, unzip it to your home dir, and make sure the
 script is executable::
 
-    chmod +x mtv/mtv.py
+    chmod +x ~/mtv/mtv.py
 
 Test it by changing into the directory of the code
 and typing this::
