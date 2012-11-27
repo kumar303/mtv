@@ -87,4 +87,5 @@ if __name__ == '__main__':
         traceback.print_exc()
         with report():
             print 'Whoops, that was unexpected'
+            print 'You can file a bug: https://github.com/kumar303/mtv/issues'
         sys.exit(1)
