@@ -1,0 +1,8 @@
+*.py[co]
+*.sw[po]
+build
+.DS_Store
+*~
+*.mo
+*.db
+mtv.mpg
