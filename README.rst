@@ -43,7 +43,7 @@ script is executable::
     chmod +x ~/mtv/mtv.py
 
 Test it by changing into the directory of the code
-and typing this::
+and passing the help flag to see the usage::
 
     cd ~/mtv
     ./mtv.py --help
