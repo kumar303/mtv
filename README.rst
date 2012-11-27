@@ -56,12 +56,15 @@ and passing the help flag to see the usage::
 Usage
 -----
 
-One you have an mp3 file and an image you want to
+Once you have an mp3 file and an image that you want to
 turn into a video, just run something like this::
 
     ./mtv.py --song /path/to/song.mp3 --art /path/to/cover.jpg
 
 You can then upload the ``mtv.mpg`` file to YouTube.
+If you're making multiple videos before uploading keep in
+mind that ``mtv.mpg`` is a temporary file that gets overwritten
+each time.
 
 You don't have to use an mp3 file, you can use any audio
 file that `ffmpeg`_ supports which is pretty much every
