@@ -37,7 +37,7 @@ def main():
     if os.path.exists(art):
         os.unlink(art)
     # Create a video with the cover art.
-    subprocess.check_call(['ffmpeg', '-loop_input', '-t', secs,
+    subprocess.check_call(['ffmpeg', '-loop', '1', '-t', secs,
                            '-i', options.art, art])
     try:
         out = os.path.join(os.getcwd(), 'mtv.mpg')
