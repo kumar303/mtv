@@ -5,6 +5,7 @@ You can upload the result to YouTube, etc.
 The ffmpeg command is required because that's where the
 magic happens.
 """
+import traceback
 try:
     from contextlib import contextmanager
     import json
@@ -13,7 +14,6 @@ try:
     import sys
     import subprocess
     import tempfile
-    import traceback
 except ImportError:
     traceback.print_exc()
     print '-' * 80
