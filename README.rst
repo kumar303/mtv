@@ -26,6 +26,7 @@ Get `ffmpeg`_. If you're on a Mac and you have `homebrew`_
 then type this to install it::
 
     brew install ffmpeg
+    brew install xz
 
 On Linux (Ubuntu) type::
 
