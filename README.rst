@@ -23,10 +23,9 @@ If you're on Windows it will be easy too but you may need to
 set up some paths and read some online tutorials.
 
 Get `ffmpeg`_. If you're on a Mac and you have `homebrew`_
-then type this to install it::
+then type this to install it (you might need ``xz`` too)::
 
-    brew install ffmpeg
-    brew install xz
+    brew install ffmpeg xz
 
 On Linux (Ubuntu) type::
 
